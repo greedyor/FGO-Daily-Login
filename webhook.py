@@ -81,8 +81,10 @@ def topLogin(data: list) -> None:
     headers = {
         "Content-Type": "application/json"
     }
+    
+    print(jsonData)
 
-    requests.post(endpoint, json=jsonData, headers=headers)
+    # requests.post(endpoint, json=jsonData, headers=headers)
 
 
 def drawFP(servants, missions) -> None:
